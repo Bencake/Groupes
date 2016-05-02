@@ -1,0 +1,38 @@
+<I>
+G0
+<s>
+Groupe initial
+<sg>
+G1,G2
+<p>
+<O>
+<I>
+G1
+<s>
+groupe inclus dans G0
+<sg>
+<p>
+<O>
+<I>
+G2
+<s>
+groupe inclus dans G0
+<sg>
+<p>
+<O>
+<I>
+G3
+<s>
+groupe enfant de G1
+<sg>
+<p>
+G1
+<O>
+<I>
+G3
+<s>
+groupe enfant de G0
+<sg>
+<p>
+G0
+<O>
