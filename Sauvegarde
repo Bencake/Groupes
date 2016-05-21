@@ -1,0 +1,54 @@
+<I>
+G0
+<s>
+Groupe initial
+<p>
+
+<sg>
+
+<O>
+<I>
+G1
+<s>
+Enfant de G0, sous-groupe de G4
+<p>
+G0
+<sg>
+
+<O>
+<I>
+G2
+<s>
+Enfant de G0, sous-groupe de G4
+<p>
+G0
+<sg>
+
+<O>
+<I>
+G3
+<s>
+Enfant de G0, sous-groupe de G4
+<p>
+G0
+<sg>
+
+<O>
+<I>
+G4
+<s>
+Groupe regroupant G1, G2 et G3
+<p>
+
+<sg>
+G1,G2,G3
+<O>
+<I>
+G5
+<s>
+Enfant de G1 et G2
+<p>
+G1,G2
+<sg>
+
+<O>

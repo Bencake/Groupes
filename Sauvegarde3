@@ -1,0 +1,60 @@
+﻿---
+G0:
+ Sujet: Groupe 0
+ Contenu: Groupe parent global
+G1:
+ Sujet: Groupe 1
+ Contenu: Enfant de G0
+ Parent: [G0]
+G2:
+ Sujet: Groupe 2
+ Contenu: Enfant de G0
+ Parent: [G0]
+G3:
+ Sujet: Groupe 3
+ Contenu: Enfant de G0
+ Parent: [G0]
+G4:
+ Sujet: Groupe 4
+ Contenu: Contient G1, G2 et G3
+ SousGroupe: [G1, G2, G3]
+G5:
+ Sujet: Groupe 5
+ Contenu: Enfant de G1 et G2
+ Parent: [G1, G2]
+G6:
+ Sujet: Groupe 6
+ Contenu: Enfant de G5
+ Parent: [G5]
+G7:
+ Sujet: Groupe 7
+ Contenu: Enfant de G6
+ Parent: [G6]
+G8:
+ Sujet: Groupe 8
+ Contenu: Enfant de G7
+ Parent: [G7]
+G9:
+ Sujet: Groupe 9
+ Contenu: Enfant de G8
+ Parent: [G8]
+G10:
+ Sujet: Groupe 10
+ Contenu: Enfant de G9
+ Parent: [G9]
+G11:
+ Sujet: Groupe 11
+ Contenu: Enfant de G10
+ Parent: [G10]
+G12:
+ Sujet: Groupe 12
+ Contenu: Enfant de G11
+ Parent: [G11]
+G13:
+ Sujet: Groupe 13
+ Contenu: Enfant de G12
+ Parent: [G12]
+G14:
+ Sujet: Groupe 14
+ Contenu: Enfant de G13
+ Parent: [G13]

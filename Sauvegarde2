@@ -1,0 +1,30 @@
+﻿# Sauvegarde type
+---
+Nom: G0
+Sujet: Groupe 0
+Contenu: Groupe parent global
+---
+Nom: G1
+Sujet: Groupe 1
+Contenu: Enfant de G0
+Parent: [G0]
+---
+Nom: G2
+Sujet: Groupe 2
+Contenu: Enfant de G0
+Parent: [G0]
+---
+Nom: G3
+Sujet: Groupe 3
+Contenu: Enfant de G0
+Parent: [G0]
+---
+Nom: G4
+Sujet: Groupe 4
+Contenu: Contient G1, G2 et G3
+SousGroupe: [G1, G2, G3]
+---
+Nom: G5
+Sujet: Groupe 5
+Contenu: Enfant de G1 et G2
+Parent: [G1, G2]
