@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+
+# Ecriture des données DATA dans un FICHIER de sauvegarde selon standard YAML
+
 import yaml
 import lecture
 

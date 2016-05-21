@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+
+# Récupération des données de FICHIER stockées sous format YAML pour traitement par Python
+
 import yaml
 
 def lecture(fichier):

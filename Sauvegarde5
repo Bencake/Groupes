@@ -1,75 +1,80 @@
-G0:
+G000:
   Contenu: Groupe parent global
   Parent: []
   SousGroupe: []
   Sujet: Groupe 0
-G1:
+G001:
   Contenu: Enfant de G0
-  Parent: [G0]
+  Parent: [G000]
   SousGroupe: []
   Sujet: Groupe 1
-G10:
-  Contenu: Enfant de G9
-  Parent: [G9]
-  SousGroupe: []
-  Sujet: Groupe 10
-G11:
-  Contenu: Enfant de G10
-  Parent: [G10]
-  SousGroupe: []
-  Sujet: Groupe 11
-G12:
-  Contenu: Enfant de G11
-  Parent: [G11]
-  SousGroupe: []
-  Sujet: Groupe 12
-G13:
-  Contenu: Enfant de G12
-  Parent: [G12]
-  SousGroupe: []
-  Sujet: Groupe 13
-G14:
-  Contenu: Enfant de G13
-  Parent: [G13]
-  SousGroupe: []
-  Sujet: Groupe 14
-G2:
+G002:
   Contenu: Enfant de G0
-  Parent: [G0]
+  Parent: [G000]
   SousGroupe: []
   Sujet: Groupe 2
-G3:
+G003:
   Contenu: Enfant de G0
-  Parent: [G0]
+  Parent: [G000]
   SousGroupe: []
   Sujet: Groupe 3
-G4:
+G004:
   Contenu: Contient G1, G2 et G3
   Parent: []
-  SousGroupe: [G1, G2, G3]
+  SousGroupe: [G001, G002, G003]
   Sujet: Groupe 4
-G5:
+G005:
   Contenu: Enfant de G1 et G2
-  Parent: [G1, G2]
+  Parent: [G001, G002]
   SousGroupe: []
   Sujet: Groupe 5
-G6:
+G006:
   Contenu: Enfant de G5
-  Parent: [G5]
+  Parent: [G005]
   SousGroupe: []
   Sujet: Groupe 6
-G7:
+G007:
   Contenu: Enfant de G6
-  Parent: [G6]
+  Parent: [G006]
   SousGroupe: []
   Sujet: Groupe 7
-G8:
+G008:
   Contenu: Enfant de G7
-  Parent: [G7]
+  Parent: [G007]
   SousGroupe: []
   Sujet: Groupe 8
-G9:
+G009:
   Contenu: Enfant de G8
-  Parent: [G8]
+  Parent: [G008]
   SousGroupe: []
   Sujet: Groupe 9
+G010:
+  Contenu: Enfant de G9
+  Parent: [G009]
+  SousGroupe: []
+  Sujet: Groupe 10
+G011:
+  Contenu: Enfant de G10
+  Parent: [G010]
+  SousGroupe: []
+  Sujet: Groupe 11
+G012:
+  Contenu: Enfant de G11
+  Parent: [G011]
+  SousGroupe: []
+  Sujet: Groupe 12
+G013:
+  Contenu: Enfant de G12
+  Parent: [G012]
+  SousGroupe: []
+  Sujet: Groupe 13
+G014:
+  Contenu: Enfant de G13
+  Parent: [G013]
+  SousGroupe: []
+  Sujet: Groupe 14
+G015:
+  Contenu: Enlever doublons qui apparaissent en chargeant seconde sauvegarde
+  Parent: []
+  SousGroupe: []
+  Sujet: ATTENTION
